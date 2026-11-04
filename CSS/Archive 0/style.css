@@ -4,10 +4,7 @@
 /* tags */
 p {
     font-size: 20px;
-}
-
-h1 {
-    color:rgb(255, 187, 0)
+    line-height: 150%;
 }
 
 /* id */
@@ -19,9 +16,32 @@ h1 {
 .paragrafo {
     color: red;
     font-size: 25px;
+    font-style: italic;
 }
 
-p span {
-    font-size: 28px;
-    color: green;
+/* seletores - fonte*/
+h1, h2, h3, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color:rgb(255, 187, 0);
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.caixa-alta {
+    color: green ;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+a {
+    color: rgb(124, 0, 182);
+    font-style: italic;
+    text-decoration: dotted;
+    text-decoration-line: underline;
 }
