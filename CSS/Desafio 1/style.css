@@ -1,5 +1,10 @@
 /* fonte */
-h1, h2, p, a, figcaption, li {
+h1, 
+h2, 
+p, 
+a, 
+figcaption, 
+li {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -29,7 +34,8 @@ a {
     color: #c44105;
     font-size: 24px;
     font-weight: bold;
-    text-decoration-style: double;
+    text-decoration: double;
+    text-decoration-line: underline;
 }
 
 ul {
@@ -37,6 +43,17 @@ ul {
     font-style: italic;
 }
 
-strong, i, em {
+h1 span,
+p strong {
     color: #0588c4;
+}
+
+.realce-italico {
+    color: #0588c4;
+    font-style: italic;
+}
+
+.realce-underline {
+    color: #0588c4;
+    text-decoration: underline;
 }
