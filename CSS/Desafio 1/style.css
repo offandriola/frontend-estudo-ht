@@ -1,0 +1,42 @@
+/* fonte */
+h1, h2, p, a, figcaption, li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* estruturas */
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+#legenda {
+    font-size: 12px;
+    font-style: italic;
+}
+
+a {
+    color: #c44105;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration-style: double;
+}
+
+ul {
+    color: #035276;
+    font-style: italic;
+}
+
+strong, i, em {
+    color: #0588c4;
+}
